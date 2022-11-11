@@ -482,6 +482,13 @@ in
     };
 
     gdlauncher = {
+      add-inputs = {
+        nativeBuildInputs = old:
+          old
+          ++ [
+            pkgs.cargo
+          ];
+      };
       add-binary = {
         buildScript = ''
           npm run release

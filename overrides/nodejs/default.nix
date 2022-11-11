@@ -925,6 +925,7 @@ in
     "@sentry/cli" = {
       add-binary = {
         buildScript = ''
+          mkdir -p $out/bin
           ln -s ${pkgs.sentry-cli}/bin $out/bin
           exit
         '';

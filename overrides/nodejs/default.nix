@@ -302,6 +302,14 @@ in
           aarch64-darwin = "5a62d46c3c45b6e416bf77affccc94e26b7a21ff8bced466036fbe74ff59799a";
           headers = "0wdw9xaxyn7zk6b4x4ldzallggxlxs293fwp6af4fa5a1c295gkn";
         };
+        "19.0.4" = {
+          armv7l-linux = "975f68f8eeb3ce5545e17749b45320b067ae22ce76d7354d395ee345e10d8c00";
+          aarch64-linux = "9e45547f92783a629f31e817494ec30ea888f9e163bdd575a9726417e48c81a5";
+          x86_64-linux = "501f4c801640131aa734f2d3a5859201f4c947dd4daacba7cca5a040769dceae";
+          x86_64-darwin = "b857cbb0aad9dd3cdef3f8561cc594f8b59e283d8b2d6b18339909166322e695";
+          aarch64-darwin = "13dadd82a9df4a8d071f40778e2e5188e2739b2b1862b07e575e0a13c73ab5a2";
+          headers = "0s3rfgwlq5pgm301778as5hw99xc6h1yk3ndlm53mvs2k3wdl5ax";
+        };
         "20.0.1" = {
           armv7l-linux = "6e1f216d0680fd1116ab378846ef9204bcd27916fa0f9bb510623a01c32bef9b";
           aarch64-linux = "60ebe86847b47d98ec16d259ee58a9dbd5fa7d84df6e23888ac1a340c9b9b467";

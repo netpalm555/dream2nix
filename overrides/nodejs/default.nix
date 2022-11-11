@@ -481,6 +481,14 @@ in
       };
     };
 
+    gdlauncher = {
+      add-binary = {
+        buildScript = ''
+          npm run release
+        '';
+      };
+    };
+
     geckodriver = {
       add-binary = {
         GECKODRIVER_FILEPATH = "${pkgs.geckodriver}/bin/geckodriver";
